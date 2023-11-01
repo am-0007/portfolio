@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Intro from '@/components/intro'
 import SectionDivider from '@/components/section-divider'
 import About from '@/components/about'
-import Project from '@/components/project'
+import Project from '@/components/projects'
 
 export default function Home() {
   return (
