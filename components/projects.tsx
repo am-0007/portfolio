@@ -1,12 +1,17 @@
-
+'use client';
 import React from 'react'
 import SectionHeader from './section-header';
 import { projectsData } from '@/lib/data';
 import Project from './project';
+import { motion } from 'framer-motion';
 
 export default function Projects() {
   return (
-    <section>
+    <motion.section
+        initial={{ opacity: 0, y: 100 }}
+        animate= {{ opacity: 1, y: 0 }}
+        transition={{delay: 0.20}}
+    >
         <SectionHeader>My Project</SectionHeader>
         <div>
             {
@@ -17,7 +22,7 @@ export default function Projects() {
                 ))
             }
         </div>
-    </section>
+    </motion.section>
   )
 }
 
