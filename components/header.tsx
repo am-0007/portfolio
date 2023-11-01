@@ -20,7 +20,7 @@ export default function Header() {
             border border-white border-opacity-50 bg-white
             bg-opacity-80
             shadow-lg shadow-black/[0.03]
-            backdrop-blur-[0.5rem]
+            backdrop-blur-[0.4rem]
             sm:top-6
             sm:h-[3.25rem]
             sm:w-[36rem]
