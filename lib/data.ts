@@ -38,7 +38,7 @@ export const experiencesData = [
   {
     title: 'Trainee',
     location: 'Sifal, Kathmandu',
-    description: 'I worked as a trainee in Japanese project which was based on Java struts framework.',
+    description: 'I worked as a trainee, currently in probation period, in Japanese project which was based on Java struts framework.',
     date: '2023',
     icon: ''
   },
@@ -56,7 +56,7 @@ export const projectsData = [
   {
     title: "GAN MODEL",
     description:
-      "I build a GAN model with my project member for College Major project.",
+      "I build a GAN model with my project member for College Major project. The model restores distorted image and fills it with suitable color.",
     tags: ["React", "MongoDB", "Python", "Tensorflow"],
     imageUrl: corpCommentImg,
   },
@@ -66,7 +66,14 @@ export const projectsData = [
       "I build e-commerce websites for minor project and successfully implemented recommendation system.",
     tags: ["React", "Spring"],
     imageUrl: rmtDevImg,
-  }
+  },
+  {
+    title: "Oauth2 Authentication",
+    description:
+      "Worked on building custom spring oauth2 security system. Added custom filter chain, Authentication Provider and Manger to handel user authentication, and integrated sms for user registration.",
+    tags: ["HTML", "CSS", "Postgres", "Java", "Spring Security"],
+    imageUrl: corpCommentImg,
+  },
 ] as const;
 
 export const skillsData = [

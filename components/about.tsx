@@ -12,10 +12,12 @@ export default function About() {
           text-center 
           leading-8 
           sm:mb-40
+          scroll-mt-28
           "
       initial = {{opacity : 0, y : 100}}
       animate = {{opacity : 1, y : 0}}
       transition={{delay : 0.17}}
+      id="about"
     >
       <SectionHeader>About me</SectionHeader>
       <p className="mb-3">
