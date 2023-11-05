@@ -6,7 +6,6 @@ import corpCommentImg from "@/public/corpcomment.png";
 import rmtDevImg from "@/public/rmtdev.png";
 import wordAnalyticsImg from "@/public/wordanalytics.png";
 
-
 export const links = [
   {
     name: "Home",
@@ -59,6 +58,7 @@ export const projectsData = [
       "I build a GAN model with my project member for College Major project. The model restores distorted image and fills it with suitable color.",
     tags: ["React", "MongoDB", "Python", "Tensorflow"],
     imageUrl: corpCommentImg,
+    site: "https://github.com/am-0007/major-project-GAN-model",
   },
   {
     title: "E-commerce websites",
@@ -66,6 +66,7 @@ export const projectsData = [
       "I build e-commerce websites for minor project and successfully implemented recommendation system.",
     tags: ["React", "Spring"],
     imageUrl: rmtDevImg,
+    site: "https://github.com/am-0007/HomeDecor_P"
   },
   {
     title: "Oauth2 Authentication",
@@ -73,6 +74,7 @@ export const projectsData = [
       "Worked on building custom spring oauth2 security system. Added custom filter chain, Authentication Provider and Manger to handel user authentication, and integrated sms for user registration.",
     tags: ["HTML", "CSS", "Postgres", "Java", "Spring Security"],
     imageUrl: corpCommentImg,
+    site: "#"
   },
 ] as const;
 
