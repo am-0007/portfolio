@@ -23,6 +23,7 @@ export default function Skills() {
     const { ref } = useActiveSectionHooks("Skills", 0.40);
   return (
     <motion.section 
+        id='skills'
         ref={ref}
         className='
             mb-28
