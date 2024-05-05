@@ -35,20 +35,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trainee',
+    company: 'Deerhold Ltd',
+    title: 'Associate Software Engineer',
     location: 'Sifal, Kathmandu',
-    description: 'I worked as a trainee, currently in probation period, in Japanese project which was based on Java struts framework.',
+    description: `I'm currently a Associate Software Engineer at Deerhold Ltd, where I thrive in both client-facing and product development roles. Proficient in frameworks like Struts 1.0 and Spring.`,
     date: '2023',
     icon: ''
   },
   {
+    Company: '',
     title: "Freelancer",
     location: "",
     description:
-      "I worked as a freelancer to build accounting website and handled both front-end and backend application. ",
+    "As a freelancer, I created an accounting web app using Spring Boot, ensuring security with Spring Security and enhancing user experience with React.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021-2022",
+    date: "2021-2023",
   },
+  {
+    company: 'PASA Dalmoth',
+    title: "Book keeper" ,
+    location: 'Taudaha, Kathamandu',
+    description: "I previously worked as a bookkeeper, handling daily transactions, checking accounting records, and matching them with bank statements for accuracy.",
+    date: '2016-2018',
+    icon: ''
+  }
 ] as const;
 
 export const projectsData = [
@@ -94,6 +104,6 @@ export const skillsData = [
   "TensorFlow",
   "Java",
   "Spring",
-  "Kafka",
+  "Flask",
   "Docker"
 ] as const;

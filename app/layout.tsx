@@ -47,6 +47,7 @@ export default function RootLayout({
             <Header />
             {children}
           </ActiveSectionContextProvider>
+          
       </body>
     </html>
   )
