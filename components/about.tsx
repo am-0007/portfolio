@@ -45,8 +45,7 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies,<br /> and playing with my dog. I also enjoy{" "}
         <span className="font-medium">traveling new places</span>. I am currently
-        learning about{" "}
-        <span className="font-medium"><br /> Struts 1.*</span> though it is outdated. 
+        working on company's product. 
       </p>
     </motion.section>
   )

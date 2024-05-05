@@ -9,10 +9,11 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useActiveSectionHooks } from '@/lib/activeSectionHooks';
+import { useActiveSectionContext } from './context/active-section-context';
 
 export default function Intro() {
   const { ref } = useActiveSectionHooks('Home', 0.65);
-
+  const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
   return (
     <section
       ref={ref}
@@ -88,6 +89,10 @@ export default function Intro() {
                     active:scale-105
                     transition
                 '
+              onClick={() => {
+                setActiveSection("Contact");
+                setTimeOfLastClick(Date.now())
+              }}
             >
               Contact me <BsArrowRight 
                 className='opacity-70 group-hover:translate-x-1 transition'

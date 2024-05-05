@@ -11,6 +11,9 @@ const nextConfig = {
                 pathname: '/account123/**'
             }
         ]
+    },
+    experimental: {
+        serverActions: true
     }
 }
 
