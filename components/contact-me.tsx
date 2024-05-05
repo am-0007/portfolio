@@ -36,7 +36,7 @@ function Contact() {
         <SectionHeader>Contact Me</SectionHeader>
         <p className='text-gray-650 -mt-5'>Please contact me directly at <a 
         className='underline' href='mailto:maharjanajay0007@gmail.com'>maharjanajay0007@gmail.com</a> 
-        or through this form</p>
+        &nbsp; or through this form</p>
 
         <form className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
