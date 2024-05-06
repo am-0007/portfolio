@@ -43,7 +43,7 @@ export const experiencesData = [
     icon: ''
   },
   {
-    Company: '',
+    company: '',
     title: "Freelancer",
     location: "",
     description:

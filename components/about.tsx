@@ -29,7 +29,7 @@ export default function About() {
         <span className="font-medium">full-stack web developer</span> with a strong work ethic and a commitment to excellence.{" "}
         I am eager to learn new things and grow my skills.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        problem-solving aspect. I <span className="underline">&#39;love&#39;</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
@@ -42,10 +42,10 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
         video games, watching movies,<br /> and playing with my dog. I also enjoy{" "}
         <span className="font-medium">traveling new places</span>. I am currently
-        working on company's product. 
+        working on company&apos;s product. 
       </p>
     </motion.section>
   )
